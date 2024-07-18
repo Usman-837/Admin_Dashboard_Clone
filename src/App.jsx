@@ -1,13 +1,14 @@
-import React from 'react';
-import Sidebar from './Sidebar';
+import React from "react";
+import Sidebar from "./Sidebar";
+import Navbar from "./Navbar";
 
-function App() {
-
+const App = () => {
   return (
     <>
     <Sidebar/>
+    <Navbar/>
     </>
-  )
-}
+  );
+};
 
 export default App;

@@ -4,7 +4,7 @@ import logo from "./assets/logo.png";
 const Sidebar = () => {
     return(
         <>
-        <div className="bg-[#071539] w-[14vw] h-[150vh]">
+        <div className="bg-[#071539] w-[14vw] h-[150vh] absolute">
             {/* logo */}
             <div className="flex gap-2 pt-4 ml-4">
                 <a href="#"><img src={logo} className="w-[40px] h-[40px]"/></a>
