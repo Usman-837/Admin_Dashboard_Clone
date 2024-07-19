@@ -3,6 +3,7 @@ import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
 import Dashboard from "./Dashboard";
 import Traffic from "./Traffic";
+import Status from "./Status";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
     <Navbar/>
     <Dashboard/>
     <Traffic/>
+    <Status/>
     </>
   );
 };
