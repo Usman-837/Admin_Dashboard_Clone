@@ -3,7 +3,7 @@ import React from "react";
 const RecentActivites = () => {
     return(
         <>
-            <div className="bg-white float-left w-[27vw] ml-[215px] mt-8 mr-6 h-auto pt-1 pb-6 shadow-lg rounded-sm px-4">
+            <div className="bg-white float-left w-[27vw] ml-[215px] mt-8 h-auto pt-1 pb-6 shadow-md shadow-gray-400 rounded-sm px-4">
                 <p className="text-[13px] font-bold px-2 pt-2">Recent Activites</p>
                 <div className="flex space-x-11">
                     <p className="text-[10px] text-gray-500 normal-case py-5 px-2">42 Minutes ago</p>

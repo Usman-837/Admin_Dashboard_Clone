@@ -4,7 +4,7 @@ import traffic_img from "./assets/circle.png";
 const Traffic = () => {
     return (
         <>
-            <div className="bg-white float-right w-[25vw] mt-5 mr-6 h-auto pt-1 shadow-lg rounded-sm px-4">
+            <div className="bg-white float-right w-[25vw] mt-5 mr-6 h-auto pt-1 shadow-md shadow-gray-400 rounded-sm px-4">
                 <p className="font-bold text-sm pt-1">Traffic</p>
                 <div className="flex justify-center pt-2 pb-4">
                     <img src={traffic_img} className="h-60"/>

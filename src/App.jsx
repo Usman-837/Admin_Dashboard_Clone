@@ -5,6 +5,7 @@ import Dashboard from "./Dashboard";
 import Traffic from "./Traffic";
 import Status from "./Status";
 import RecentActivites from "./RecentActivities";
+import OverviewStatus from "./OverviewStatus";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Traffic/>
     <Status/>
     <RecentActivites/>
+    <OverviewStatus/>
     </>
   );
 };

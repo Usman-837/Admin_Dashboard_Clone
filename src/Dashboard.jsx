@@ -3,7 +3,7 @@ import React from "react";
 const Dashboard = () => {
     return (
         <>
-        <div className="bg-white float-left w-[55vw] mt-5 h-auto ml-[215px] pt-1 shadow-lg rounded-sm">
+        <div className="bg-white float-left w-[55vw] mt-5 h-auto ml-[215px] pt-1 shadow-md shadow-gray-400 rounded-sm">
             <div className="flex justify-between px-2">
                 <div>
                     <p className="text-sm">dashboard</p>
