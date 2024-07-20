@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Dashboard from "./Dashboard";
 import Traffic from "./Traffic";
 import Status from "./Status";
+import RecentActivites from "./RecentActivities";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <Dashboard/>
     <Traffic/>
     <Status/>
+    <RecentActivites/>
     </>
   );
 };
