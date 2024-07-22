@@ -1,4 +1,5 @@
 import React from "react";
+import graph from "./assets/graph-lines.png";
 
 const Dashboard = () => {
     return (
@@ -40,23 +41,71 @@ const Dashboard = () => {
                         <a href="#" className="text-xs text-white">last month summary</a>
                     </div>
                 </div>
-                <div>
-                    <table class="border-collapse border border-solid border-gray-400 w-96">
-                        <tr>
-                            <td class="border border-solid border-gray-400 p-2">1</td>
-                            <td class="border border-solid border-gray-400 p-2">2</td>
-                            <td class="border border-solid border-gray-400 p-2">3</td>
-                            <td class="border border-solid border-gray-400 p-2">4</td>
-                            <td class="border border-solid border-gray-400 p-2">5</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-solid border-gray-400 p-2">6</td>
-                            <td class="border border-solid border-gray-400 p-2">7</td>
-                            <td class="border border-solid border-gray-400 p-2">8</td>
-                            <td class="border border-solid border-gray-400 p-2">9</td>
-                            <td class="border border-solid border-gray-400 p-2">10</td>
-                        </tr>
+                <div className="text-gray-500 text-xs mt-4 space-y-3.5 ml-32">
+                    <p>30</p>
+                    <p>25</p>
+                    <p>20</p>
+                    <p>15</p>
+                    <p>10</p>
+                    <p>5</p>
+                    <p>0</p>
+                </div>
+                <div className="text-gray-500 absolute flex left-[530px] top-80 mt-2 space-x-19  text-xs">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                </div>
+                <div className="mt-5 mr-1">
+                    <table class="border border-1 border-solid border-separate border-gray-300">
+                            <tr>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                            </tr>
+                            <tr>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                            </tr>
+                            <tr>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                            </tr>
+                            <tr>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                            </tr> 
+                            <tr>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                            </tr>
+                            <tr>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                                <th class="border border-1 border-solid border-gray-400 p-[13px] px-10"></th>
+                            </tr>
                     </table>
+                </div>
+                <div className="absolute right-1/4 mr-16 top-52 w-[420px]">
+                    <img src={graph}/>
                 </div>
             </div>
             <div className="flex justify-between border-t-[0.5px] border-solid border-gray-400 mt-5 py-3 px-3">
